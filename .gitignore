@@ -1,0 +1,15 @@
+
+*.vsidx
+embedder/.vs/embedder/v17/.suo
+embedder/.vs/embedder/v17/Browse.VC.db
+*.db-shm
+*.opendb
+*.ilk
+*.obj
+*.idb
+*.pdb
+*.exe
+*.pdb
+embedder/.vs/embedder/FileContentIndex/14571e3d-0243-4f53-85d8-94c6d5df27e2.vsidx
+*.vsidx
+embedder/.vs/embedder/v17/.suo
