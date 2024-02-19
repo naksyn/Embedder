@@ -49,6 +49,11 @@ https://github.com/naksyn/embedder/assets/59816245/204efba1-06ea-4ea3-9029-09ca3
 
 https://github.com/naksyn/embedder/assets/59816245/f6a9ed44-3f51-41e6-a5c4-6986609aa429
 
+# Disclaimer
+
+Embedder is developed for educational, research, and legal security testing purposes. It is intended for use by security professionals and researchers with authorization to evaluate and improve security systems in a lawful manner.
+Users must comply with all applicable laws and ethical guidelines.
+
 # Limitations
 
 If you need to execute complex Python code with lots of dependencies, currently you need to drop all the pyd files that will be loaded during code execution and find a way to import also needed Python modules (drop on disk or in-memory).
