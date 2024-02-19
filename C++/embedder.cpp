@@ -30,7 +30,7 @@ int main() {
 
     HMODULE hModules[numDLLs];
     for (int i = 0; i < numDLLs; ++i) {
-        hModules[i] = LoadLibrary(dllNames[i]);
+        hModules[i] = LoadLibraryW(dllNames[i]);
         if (hModules[i] == NULL) {
             std::cerr << "Failed to load DLL: " << dllNames[i] << std::endl;
             for (int j = 0; j < i; ++j) {
