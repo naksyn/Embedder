@@ -37,6 +37,21 @@ Then `nim c --os:windows --cpu:amd64 -d:mingw embedder.nim`
    
    CGO_ENABLED=1 GOOS=windows GOARCH=amd64 CC=x86_64-w64-mingw32-gcc go build -o embedder.exe
    ```
+ * Rust:
+   ```
+   cargo build --release
+   ```
+ * Lua:
+   The Lua script is interpreted by luajit.exe on the Windows target. You can build these, on you Kali or Windows machine, following the steps described here:
+
+   https://luajit.org/install.html
+
+
+   Once built and uploaded, you can run the embedder.lua like this:
+
+   ```
+   .\luajit.exe .\embedder.lua
+   ```
 
 ## Demo
 
