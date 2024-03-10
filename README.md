@@ -42,7 +42,7 @@ Then `nim c --os:windows --cpu:amd64 -d:mingw embedder.nim`
    cargo build --release
    ```
  * Lua:
-   The Lua script is interpreted by luajit.exe on the Windows target. You can build these, on you Kali or Windows machine, following the steps described here:
+   The Lua script is interpreted by luajit.exe on the Windows target. You can build these, on your Kali or Windows machine, following the steps described here:
 
    https://luajit.org/install.html
 
