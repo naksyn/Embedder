@@ -39,7 +39,7 @@ class Program
 
         
         string pythonCode = @"
-print("paste Pyramid cradle here")
+print(""paste Pyramid cradle here"")
 ";
 		
         if (PyRun_SimpleString(pythonCode) != 0)
